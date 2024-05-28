@@ -1,0 +1,9 @@
+name: create folder
+on: [push,pull_request]
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print hello
+        run: echo "Hello, Dasha!"
